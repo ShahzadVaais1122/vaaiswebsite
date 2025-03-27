@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f0f7ff" rx="20" ry="20" />
+  
+  <!-- Team Members Group -->
+  <g transform="translate(100, 80)">
+    <!-- Person 1 (Data Scientist) -->
+    <g transform="translate(0, 0)">
+      <!-- Head -->
+      <circle cx="50" cy="50" r="40" fill="#4361ee" />
+      <circle cx="50" cy="50" r="35" fill="#ffffff" />
+      
+      <!-- Face -->
+      <circle cx="40" cy="40" r="5" fill="#333333" /> <!-- Left eye -->
+      <circle cx="60" cy="40" r="5" fill="#333333" /> <!-- Right eye -->
+      <path d="M35,65 Q50,75 65,65" stroke="#333333" stroke-width="2" fill="none" /> <!-- Smile -->
+      
+      <!-- Body -->
+      <rect x="25" y="90" width="50" height="70" rx="10" ry="10" fill="#4361ee" />
+      
+      <!-- Data Science Icon -->
+      <circle cx="50" cy="120" r="15" fill="#ffffff" />
+      <path d="M45,115 L55,125 M45,125 L55,115" stroke="#4361ee" stroke-width="2" /> <!-- X -->
+      <path d="M40,120 L60,120" stroke="#4361ee" stroke-width="2" /> <!-- - -->
+    </g>
+    
+    <!-- Person 2 (AI Engineer) -->
+    <g transform="translate(150, 0)">
+      <!-- Head -->
+      <circle cx="50" cy="50" r="40" fill="#3a0ca3" />
+      <circle cx="50" cy="50" r="35" fill="#ffffff" />
+      
+      <!-- Face -->
+      <circle cx="40" cy="40" r="5" fill="#333333" /> <!-- Left eye -->
+      <circle cx="60" cy="40" r="5" fill="#333333" /> <!-- Right eye -->
+      <path d="M35,65 Q50,75 65,65" stroke="#333333" stroke-width="2" fill="none" /> <!-- Smile -->
+      
+      <!-- Body -->
+      <rect x="25" y="90" width="50" height="70" rx="10" ry="10" fill="#3a0ca3" />
+      
+      <!-- AI Icon -->
+      <rect x="40" y="110" width="20" height="20" fill="#ffffff" />
+      <circle cx="45" cy="115" r="2" fill="#3a0ca3" />
+      <circle cx="55" cy="115" r="2" fill="#3a0ca3" />
+      <path d="M40,125 L60,125" stroke="#3a0ca3" stroke-width="2" />
+    </g>
+    
+    <!-- Person 3 (Software Developer) -->
+    <g transform="translate(300, 0)">
+      <!-- Head -->
+      <circle cx="50" cy="50" r="40" fill="#4cc9f0" />
+      <circle cx="50" cy="50" r="35" fill="#ffffff" />
+      
+      <!-- Face -->
+      <circle cx="40" cy="40" r="5" fill="#333333" /> <!-- Left eye -->
+      <circle cx="60" cy="40" r="5" fill="#333333" /> <!-- Right eye -->
+      <path d="M35,65 Q50,75 65,65" stroke="#333333" stroke-width="2" fill="none" /> <!-- Smile -->
+      
+      <!-- Body -->
+      <rect x="25" y="90" width="50" height="70" rx="10" ry="10" fill="#4cc9f0" />
+      
+      <!-- Code Icon -->
+      <text x="40" y="125" font-family="monospace" font-size="20" fill="#ffffff">&lt;/&gt;</text>
+    </g>
+  </g>
+  
+  <!-- Connection Lines -->
+  <line x1="150" y1="200" x2="250" y2="200" stroke="#4361ee" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="300" y1="200" x2="400" y2="200" stroke="#4361ee" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- AI Elements -->
+  <g transform="translate(150, 250)">
+    <!-- Circuit Board Pattern -->
+    <path d="M0,0 L300,0 L300,50 L0,50 Z" fill="none" stroke="#4cc9f0" stroke-width="1" />
+    <path d="M50,0 L50,50" stroke="#4cc9f0" stroke-width="1" />
+    <path d="M100,0 L100,50" stroke="#4cc9f0" stroke-width="1" />
+    <path d="M150,0 L150,50" stroke="#4cc9f0" stroke-width="1" />
+    <path d="M200,0 L200,50" stroke="#4cc9f0" stroke-width="1" />
+    <path d="M250,0 L250,50" stroke="#4cc9f0" stroke-width="1" />
+    
+    <path d="M0,25 L300,25" stroke="#4cc9f0" stroke-width="1" />
+    
+    <!-- Circuit Nodes -->
+    <circle cx="50" cy="25" r="5" fill="#3a0ca3" />
+    <circle cx="150" cy="25" r="5" fill="#3a0ca3" />
+    <circle cx="250" cy="25" r="5" fill="#3a0ca3" />
+  </g>
+  
+  <!-- Team Text -->
+  <text x="300" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2b2d42">Our Expert Team</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="500" viewBox="0 0 600 500">
+  <!-- Background Elements -->
+  <circle cx="300" cy="250" r="200" fill="#f0f7ff" />
+  
+  <!-- Brain Network -->
+  <g>
+    <!-- Brain Outline -->
+    <path d="M300,150 C380,150 440,210 440,290 C440,370 380,430 300,430 C220,430 160,370 160,290 C160,210 220,150 300,150" fill="#e6f0ff" stroke="#4361ee" stroke-width="3" />
+    
+    <!-- Neural Network Nodes -->
+    <circle cx="250" cy="200" r="15" fill="#4361ee" />
+    <circle cx="350" cy="200" r="15" fill="#4361ee" />
+    <circle cx="200" cy="250" r="15" fill="#4361ee" />
+    <circle cx="300" cy="250" r="15" fill="#4361ee" />
+    <circle cx="400" cy="250" r="15" fill="#4361ee" />
+    <circle cx="250" cy="300" r="15" fill="#4361ee" />
+    <circle cx="350" cy="300" r="15" fill="#4361ee" />
+    <circle cx="300" cy="350" r="15" fill="#4361ee" />
+    
+    <!-- Neural Network Connections -->
+    <line x1="250" y1="200" x2="200" y2="250" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="250" y1="200" x2="300" y2="250" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="350" y1="200" x2="300" y2="250" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="350" y1="200" x2="400" y2="250" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="200" y1="250" x2="250" y2="300" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="300" y1="250" x2="250" y2="300" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="300" y1="250" x2="350" y2="300" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="400" y1="250" x2="350" y2="300" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="250" y1="300" x2="300" y2="350" stroke="#4cc9f0" stroke-width="2" />
+    <line x1="350" y1="300" x2="300" y2="350" stroke="#4cc9f0" stroke-width="2" />
+    
+    <!-- Animated Pulses -->
+    <circle cx="250" cy="200" r="5" fill="#ffffff">
+      <animate attributeName="r" values="5;10;5" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="300" cy="250" r="5" fill="#ffffff">
+      <animate attributeName="r" values="5;10;5" dur="2s" repeatCount="indefinite" begin="0.5s" />
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite" begin="0.5s" />
+    </circle>
+    <circle cx="350" cy="300" r="5" fill="#ffffff">
+      <animate attributeName="r" values="5;10;5" dur="2s" repeatCount="indefinite" begin="1s" />
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite" begin="1s" />
+    </circle>
+  </g>
+  
+  <!-- Digital Elements -->
+  <g>
+    <!-- Binary Code -->
+    <text x="150" y="120" font-family="monospace" font-size="12" fill="#3a0ca3" opacity="0.7">10110101</text>
+    <text x="400" y="130" font-family="monospace" font-size="12" fill="#3a0ca3" opacity="0.7">01001010</text>
+    <text x="120" y="380" font-family="monospace" font-size="12" fill="#3a0ca3" opacity="0.7">11001001</text>
+    <text x="420" y="390" font-family="monospace" font-size="12" fill="#3a0ca3" opacity="0.7">00101101</text>
+    
+    <!-- Circuit Lines -->
+    <path d="M120,130 L140,130 L140,150" stroke="#4cc9f0" stroke-width="1.5" fill="none" />
+    <path d="M460,130 L440,130 L440,150" stroke="#4cc9f0" stroke-width="1.5" fill="none" />
+    <path d="M120,370 L140,370 L140,350" stroke="#4cc9f0" stroke-width="1.5" fill="none" />
+    <path d="M460,370 L440,370 L440,350" stroke="#4cc9f0" stroke-width="1.5" fill="none" />
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g>
+    <circle cx="150" cy="150" r="5" fill="#4361ee" opacity="0.5" />
+    <circle cx="450" cy="150" r="5" fill="#4361ee" opacity="0.5" />
+    <circle cx="150" cy="350" r="5" fill="#4361ee" opacity="0.5" />
+    <circle cx="450" cy="350" r="5" fill="#4361ee" opacity="0.5" />
+    
+    <circle cx="120" cy="200" r="3" fill="#4cc9f0" opacity="0.7" />
+    <circle cx="480" cy="200" r="3" fill="#4cc9f0" opacity="0.7" />
+    <circle cx="120" cy="300" r="3" fill="#4cc9f0" opacity="0.7" />
+    <circle cx="480" cy="300" r="3" fill="#4cc9f0" opacity="0.7" />
+  </g>
+</svg>
